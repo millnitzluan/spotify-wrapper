@@ -2,6 +2,8 @@
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
+[![Coverage Status](https://coveralls.io/repos/github/luanmillnitz/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/luanmillnitz/spotify-wrapper?branch=master)
+
 ## Browser Support
 
 This library relies on [Fetch API](https://fetch.spec.whatwg.org/). And this API is supported in the following browsers.
