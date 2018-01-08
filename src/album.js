@@ -1,11 +1,11 @@
-import { API_URL } from './config';
+import { API_URL, HEADERS } from './config';
 import { toJSON } from './utils';
 
 export const getAlbum = query =>
-  fetch(`${API_URL}/albums/${query}`).then(toJSON);
+  fetch(`${API_URL}/albums/${query}`, HEADERS).then(toJSON);
 
 export const getAlbums = query =>
-  fetch(`${API_URL}/albums/?ids=${query}`).then(toJSON);
+  fetch(`${API_URL}/albums/?ids=${query}`, HEADERS).then(toJSON);
 
 export const getAlbumTracks = query =>
-  fetch(`${API_URL}/albums/${query}/tracks`).then(toJSON);
+  fetch(`${API_URL}/albums/${query}/tracks`, HEADERS).then(toJSON);
