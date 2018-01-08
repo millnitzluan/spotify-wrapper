@@ -1,5 +1,5 @@
 import chai, { expect } from 'chai';
-import { search, searchAlbums, searchArtists, searchTracks, searchPlaylists } from '../src/main.js';
+import { search, searchAlbums, searchArtists, searchTracks, searchPlaylists } from '../src/search';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
 import sinonStubPromise from 'sinon-stub-promise';

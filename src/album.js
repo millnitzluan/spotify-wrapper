@@ -1,11 +1,11 @@
+import { API_URL } from './config';
+import { toJSON } from './utils';
+
 export const getAlbum = query =>
-  fetch(`https://api.spotify.com/v1/albums/${query}`)
-    .then(data => data.json());
+  fetch(`${API_URL}/albums/${query}`).then(toJSON);
 
 export const getAlbums = query =>
-  fetch(`https://api.spotify.com/v1/albums/?ids=${query}`)
-    .then(data => data.json());
+  fetch(`${API_URL}/albums/?ids=${query}`).then(toJSON);
 
 export const getAlbumTracks = query =>
-  fetch(`https://api.spotify.com/v1/albums/${query}/tracks`)
-    .then(data => data.json());
+  fetch(`${API_URL}/albums/${query}/tracks`).then(toJSON);
