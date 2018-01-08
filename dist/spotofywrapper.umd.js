@@ -187,4 +187,4 @@ var getAlbumTracks = exports.getAlbumTracks = function getAlbumTracks(query) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=spotifywrapper.umd.js.map
+//# sourceMappingURL=spotofywrapper.umd.js.map
