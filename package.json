@@ -6,7 +6,7 @@
   "scripts": {
     "clear": "rimraf lib",
     "build": "npm run clear && ./node_modules/.bin/babel --out-dir lib src",
-    "build:umd": "./node_modules/.bin/webpack --output-filename spotofywrapper.umd.js",
+    "build:umd": "./node_modules/.bin/webpack --output-filename spotifywrapper.umd.js",
     "build:umd:min": "./node_modules/.bin/webpack --output-filename spotofywrapper.umd.min.js -p",
     "build:all": "npm run build && npm run build:umd && npm run build:umd:min",
     "build:watch": "npm run build -- --watch",
