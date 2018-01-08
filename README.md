@@ -1,7 +1,5 @@
 # Spotify Wrapper
 
-[![Build Status](https://travis-ci.org/willianjusten/spotify-wrapper.svg?branch=master)](https://travis-ci.org/willianjusten/spotify-wrapper) [![Coverage Status](https://coveralls.io/repos/github/willianjusten/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/willianjusten/spotify-wrapper?branch=master)
-
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
 ## Browser Support
@@ -223,7 +221,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 | ![Willian Justen](https://avatars2.githubusercontent.com/u/3991845?v=3&s=150)|
 |:---------------------:|
-|  [Willian Justen](https://github.com/willianjusten/)   |
+|  [Luan Millnitz](https://github.com/luanmillnitz/)   |
 
 See also the list of [contributors](https://github.com/willianjusten/spotify-wrapper/contributors) who participated in this project.
 
