@@ -31,19 +31,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luanmillnitz/spotify-wrapper.git"
+    "url": "git+https://github.com/millnitzluan/spotify-wrapper.git"
   },
   "keywords": [
     "js",
     "tdd",
     "library"
   ],
-  "author": "Luan Millnitz <luanmillnitz@gmail.com> (https://github.com/luanmillnitz)",
+  "author": "Luan Millnitz <luanmillnitz@gmail.com> (https://github.com/millnitzluan)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luanmillnitz/spotify-wrapper/issues"
+    "url": "https://github.com/millnitzluan/spotify-wrapper/issues"
   },
-  "homepage": "https://github.com/luanmillnitz/spotify-wrapper#readme",
+  "homepage": "https://github.com/millnitzluan/spotify-wrapper#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.2",
